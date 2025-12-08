@@ -1,0 +1,17 @@
+# ninja log v7
+1	50	1765197754461887917	CMakeFiles/hello.dir/math_operations.cpp.o	fb8457043eef4739
+2	51	1765197754462314001	CMakeFiles/run_tests.dir/math_operations.cpp.o	a95b3b2659fa9886
+1	464	1765197754461678000	CMakeFiles/hello.dir/main.cpp.o	4fb561a6e184bac7
+466	527	1765197754926087157	hello	9b413c321c6adfc5
+1	628	1765197754461536749	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	26218edb7416e444
+2	654	1765197754462119668	CMakeFiles/run_tests.dir/tests/unit_tests.cpp.o	28e5445b211d09a0
+2	719	1765197754462571919	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	e5c4e20211ebdac8
+1	942	1765197754461382874	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	6c11d73dd9ff934b
+1	1429	1765197754461116957	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	c07cbf754822d51b
+1429	2422	1765197755889560105	lib/libgtest.a	38aefa2c5f83310
+2423	2462	1765197756883069843	lib/libgtest_main.a	2fc6f460164925a8
+2422	2462	1765197756882817176	lib/libgmock.a	cfd1235c984bcb0d
+2462	2500	1765197756922480782	lib/libgmock_main.a	ed294e13748ec368
+2462	2976	1765197757434844443	run_tests	644d174810e8a881
+2462	2976	1765197757434844443	run_tests[1]_tests.cmake	644d174810e8a881
+2462	2976	1765197757434844443	/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests[1]_tests.cmake	644d174810e8a881

@@ -1,0 +1,133 @@
+Start testing: Dec 08 14:42 EET
+----------------------------------------------------------
+1/5 Testing: AddTest.PositiveNumbers
+1/5 Test: AddTest.PositiveNumbers
+Command: "/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests" "--gtest_filter=AddTest.PositiveNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build
+"AddTest.PositiveNumbers" start time: Dec 08 14:42 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = AddTest.PositiveNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AddTest
+[ RUN      ] AddTest.PositiveNumbers
+[       OK ] AddTest.PositiveNumbers (0 ms)
+[----------] 1 test from AddTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest.PositiveNumbers" end time: Dec 08 14:42 EET
+"AddTest.PositiveNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: AddTest.NegativeNumbers
+2/5 Test: AddTest.NegativeNumbers
+Command: "/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests" "--gtest_filter=AddTest.NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build
+"AddTest.NegativeNumbers" start time: Dec 08 14:42 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = AddTest.NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AddTest
+[ RUN      ] AddTest.NegativeNumbers
+[       OK ] AddTest.NegativeNumbers (0 ms)
+[----------] 1 test from AddTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest.NegativeNumbers" end time: Dec 08 14:42 EET
+"AddTest.NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: AddTest.MixedSign
+3/5 Test: AddTest.MixedSign
+Command: "/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests" "--gtest_filter=AddTest.MixedSign" "--gtest_also_run_disabled_tests"
+Directory: /Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build
+"AddTest.MixedSign" start time: Dec 08 14:42 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = AddTest.MixedSign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AddTest
+[ RUN      ] AddTest.MixedSign
+[       OK ] AddTest.MixedSign (0 ms)
+[----------] 1 test from AddTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest.MixedSign" end time: Dec 08 14:42 EET
+"AddTest.MixedSign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: AddTest.WithZero
+4/5 Test: AddTest.WithZero
+Command: "/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests" "--gtest_filter=AddTest.WithZero" "--gtest_also_run_disabled_tests"
+Directory: /Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build
+"AddTest.WithZero" start time: Dec 08 14:42 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = AddTest.WithZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AddTest
+[ RUN      ] AddTest.WithZero
+[       OK ] AddTest.WithZero (0 ms)
+[----------] 1 test from AddTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest.WithZero" end time: Dec 08 14:42 EET
+"AddTest.WithZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: AddTest.LargeNumbers
+5/5 Test: AddTest.LargeNumbers
+Command: "/Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build/run_tests" "--gtest_filter=AddTest.LargeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/mykolazabrotskyi/GitHub/csad2526ki406zabrotskyimykola7/build
+"AddTest.LargeNumbers" start time: Dec 08 14:42 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = AddTest.LargeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AddTest
+[ RUN      ] AddTest.LargeNumbers
+[       OK ] AddTest.LargeNumbers (0 ms)
+[----------] 1 test from AddTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AddTest.LargeNumbers" end time: Dec 08 14:42 EET
+"AddTest.LargeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 08 14:42 EET
