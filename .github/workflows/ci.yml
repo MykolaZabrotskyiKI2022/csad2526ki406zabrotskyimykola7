@@ -1,34 +1,34 @@
-name: Cross Build
+name: CI Build and Test
 
 on:
   push:
-    branches:
-      - '*develop*'
-      - '*master*'
+    branches: [ master, develop ]
   pull_request:
-    branches:
-      - '*develop*'
-      - '*master*'
+    branches: [ master, develop ]
 
 jobs:
-  cross_build:
+  build_and_test:
+    name: Build & Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
-      - name: Install CMake
-        uses: lukka/get-cmake@latest
-      
-      - name: Configure and Build
+
+      - name: Build and Test with Ninja
+        shell: bash
         run: |
           mkdir -p build
           cd build
-          cmake ..
+          cmake .. -G "Ninja"
           cmake --build .
+          ctest --output-on-failure
 
-      - name: Deploy
-        run: echo "Deploy stage (replace with your real deploy script)"
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-results-${{ matrix.os }}
+          path: build/
