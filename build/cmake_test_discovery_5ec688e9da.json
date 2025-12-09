@@ -1,0 +1,37 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "AddTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "PositiveNumbers",
+          "file": "\/Users\/mykolazabrotskyi\/GitHub\/csad2526ki406zabrotskyimykola7\/tests\/unit_tests.cpp",
+          "line": 4
+        },
+        {
+          "name": "NegativeNumbers",
+          "file": "\/Users\/mykolazabrotskyi\/GitHub\/csad2526ki406zabrotskyimykola7\/tests\/unit_tests.cpp",
+          "line": 8
+        },
+        {
+          "name": "MixedSign",
+          "file": "\/Users\/mykolazabrotskyi\/GitHub\/csad2526ki406zabrotskyimykola7\/tests\/unit_tests.cpp",
+          "line": 12
+        },
+        {
+          "name": "WithZero",
+          "file": "\/Users\/mykolazabrotskyi\/GitHub\/csad2526ki406zabrotskyimykola7\/tests\/unit_tests.cpp",
+          "line": 17
+        },
+        {
+          "name": "LargeNumbers",
+          "file": "\/Users\/mykolazabrotskyi\/GitHub\/csad2526ki406zabrotskyimykola7\/tests\/unit_tests.cpp",
+          "line": 23
+        }
+      ]
+    }
+  ]
+}

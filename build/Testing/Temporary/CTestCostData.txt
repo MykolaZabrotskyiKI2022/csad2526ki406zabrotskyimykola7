@@ -1,0 +1,6 @@
+AddTest.PositiveNumbers 1 0.00702279
+AddTest.NegativeNumbers 1 0.00590629
+AddTest.MixedSign 1 0.00637817
+AddTest.WithZero 1 0.00554121
+AddTest.LargeNumbers 1 0.00540912
+---
